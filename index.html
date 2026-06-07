@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyper-Typer: Type till you're bored</title>
+    <link rel="stylesheet" href="style.css">
+     <script defer src="main.js"></script>
+</head>
+<body>
+    <div class="main">
+        <h1>Welcome to Hyper-Typer</h1>
+        <div id="quote-display">Click Start to Begin!</div>
+        <textarea id="quote-input" placeholder="Type here..." disabled></textarea>
+        
+        <div class="stats-display">
+            <p class="stat-box">WPM: <span id="wpm">0</span></p>
+            <p class="stat-box">Accuracy: <span id="accuracy">100</span>%</p>
+            <p class="stat-box">Time: <span id="timer">0</span>s</p>
+        </div>
+        
+        <div class="buttons">
+            <button id="start-btn">Start Typing</button>
+            <button id="next-btn">Next Quote</button>
+        </div>
+        <p id="message"></p>
+    </div>
+</body>
+</html>
